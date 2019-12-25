@@ -11,11 +11,19 @@
     "start": "parcel src/index.html",
     "build-prod": "parcel build src/index.html"
   },
-  "dependencies": {},
+  "dependencies": {
+    "socket.io-client": "^2.3.0"
+  },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
     "@babel/core": "^7.7.2",
     "@babel/preset-env": "^7.7.1",
-    "prettier": "^1.19.1"
+    "@types/node": "^13.1.0",
+    "@types/socket.io": "^2.1.4",
+    "@types/socket.io-client": "^1.4.32",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1",
+    "ts-node": "^8.5.4",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.7.4"
   }
 }
